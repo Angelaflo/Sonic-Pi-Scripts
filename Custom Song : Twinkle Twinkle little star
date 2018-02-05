@@ -1,0 +1,123 @@
+#Twinkle Little Star
+
+use_bpm 100
+use_synth :piano
+
+
+
+#1
+play :C4
+sleep 1
+play :C4
+sleep 1
+play :G4
+sleep 1
+play :G4
+sleep 1
+
+#2
+play :A4
+sleep 1
+play :A4
+sleep 1
+play :G4
+sleep 2
+
+#3
+play :F4
+sleep 1
+play :F4
+sleep 1
+play :E4
+sleep 1
+play :E4
+sleep 1
+
+#4
+play :D4
+sleep 1
+play :D4
+sleep 1
+play :C4
+sleep 2
+
+
+#5
+play :G4
+sleep 1
+play :G4
+sleep 1
+play :F4
+sleep 1
+play :F4
+sleep 1
+
+
+#6
+play :E4
+sleep 1
+play :E4
+sleep 1
+play :D4
+sleep 2
+
+
+#7
+play :G4
+sleep 1
+play :G4
+sleep 1
+play :F4
+sleep 1
+play :F4
+sleep 1
+
+#8
+play :E4
+sleep 1
+play :E4
+sleep 1
+play :D4
+sleep 2
+
+
+#9
+play :C4
+sleep 1
+play :C4
+sleep 1
+play :G4
+sleep 1
+play :G4
+sleep 1
+
+
+
+#10
+play :A4
+sleep 1
+play :A4
+sleep 1
+play :G4
+sleep 2
+
+
+#11
+play :F4
+sleep 1
+play :F4
+sleep 1
+play :E4
+sleep 1
+play :E4
+sleep 1
+
+
+
+#12
+play :D4
+sleep 1
+play :D4
+sleep 1
+play :C4
+sleep 2
