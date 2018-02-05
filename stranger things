@@ -1,0 +1,26 @@
+#Stranger Things
+use_bpm 160
+use_synth :fm
+with_fx :pitch_shift do
+  
+  
+  play :C2
+  sleep 0.5
+  play :E2
+  sleep 0.5
+  play :G2
+  sleep 0.5
+  play :B2
+  sleep 0.5
+  play :C2
+  sleep 0.5
+  play :B2
+  sleep 0.5
+  play :G2
+  sleep 0.5
+  play :E2
+  sleep 0.5
+  
+  
+end
+
