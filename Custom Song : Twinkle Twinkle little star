@@ -1,6 +1,6 @@
-#Twinkle Little Star
+#Custom Song "Twinkle Twinkle Little Star"
 
-use_bpm 100
+use_bpm 110
 use_synth :piano
 
 
@@ -41,6 +41,10 @@ sleep 1
 play :C4
 sleep 2
 
+live_loop :why do
+  sample :drum_snare_soft
+  sleep 2
+end
 
 #5
 play :G4
