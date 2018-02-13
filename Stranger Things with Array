@@ -1,0 +1,20 @@
+# Stranger Things Main Theme
+use_bpm 160
+use_synth :saw
+nbc_notes = [:c2, :e2, :g2, :b2, :c3]
+index = 0
+
+live_loop :ST do
+  puts "method 3"
+  4.times do
+    play nbc_notes[index]
+    sleep 0.5
+    index = index + 1
+  end
+  
+  4.times do
+    play nbc_notes[index]
+    sleep 0.5
+    index = index - 1
+  end
+end
