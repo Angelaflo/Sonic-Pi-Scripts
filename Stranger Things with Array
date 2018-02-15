@@ -1,7 +1,8 @@
 # Stranger Things Main Theme
 use_bpm 160
 use_synth :saw
-nbc_notes = [:c2, :e2, :g2, :b2, :c3]
+#The line below is the array list of the notes for Stranger Things starting from 0,1,2,3,4
+nbc_notes = [:c2, :e2, :g2, :b2, :c3] 
 index = 0
 
 live_loop :ST do
