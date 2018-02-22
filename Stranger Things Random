@@ -1,0 +1,30 @@
+# Stranger Things Main Theme
+use_bpm 160
+use_synth :saw
+notes = [:c2, :e2, :g2, :b2, :c3, :b2, :g2, :e2]
+
+=begin
+live_loop :strategy1 do
+  a = rrand(0, 7)
+  print a
+  play a
+  sleep 0.5
+=end
+
+=begin
+use_random_seed 90
+live_loop :strategy2 do
+  b = rrand(0, 7)
+  print b
+  play notes[b]
+  sleep 0.5
+=end
+
+
+=begin 
+live_loop :strategy3 do
+  c = choose([:c2, :e2, :g2, :b2, :c3, :b2, :g2, :e2])
+  print c
+  play c
+  sleep 0.5
+=end
