@@ -1,0 +1,32 @@
+#New Custom Song "Domo23" - Tyler the creator
+URL : https://musescore.com/user/1371436/scores/2170591
+
+use_bpm 113
+use_synth :piano
+
+#first
+play :d4
+play :d5
+sleep 1.5
+play :d4
+sleep 1.5
+play :d4
+play :d5
+sleep 1.5
+play :d4
+play :d5
+sleep 0.5
+play :g5
+play :g4
+sleep 0.5
+play :d4
+sleep 0.5
+play :g4
+sleep 1
+play :d4
+sleep 1
+play :g4
+sleep 1
+play :f4
+sleep 1
+play :d4
