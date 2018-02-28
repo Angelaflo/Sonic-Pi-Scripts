@@ -1,0 +1,43 @@
+use_bpm 120
+use_synth :dtri
+use_synth_defaults cutoff: 80
+kanye_vocals = "C:/Users/angela_flores/Desktop/love_lockdown.wav"
+my_sample = "C:/Users/angela_flores/Desktop/my_samples/love_lockdown_my_own.wav"
+sample_used = :bd_808
+
+define :drum_beat do
+  sample sample_used, amp: 2
+  sleep 0.5
+  sample sample_used, amp: 2
+  sleep 1.5
+  sample sample_used, amp: 2
+  sleep 2
+end
+
+define :yes do
+  sample my_sample
+  sleep 1
+end
+
+define :synth_sound do
+  play :cs2
+  sleep 0.5
+  play :cs2
+  sleep 0.5
+  play :e2, sustain: 0.5
+  sleep 1
+  play :cs2, sustain: 1, detune: 0.12
+  play :cs1, sustain: 1
+  sleep 2
+end
+
+define :kanye_vocals do
+  sample kanye_vocals
+  sleep 8
+end
+
+
+drum_beat
+synth_sound
+kanye_vocals
+yes
