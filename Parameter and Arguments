@@ -1,0 +1,21 @@
+use_bpm 160
+use_synth :saw
+
+define :will do |w| #w is the parameter
+  play w #it plays the variable
+  sleep 0.5
+end
+
+live_loop :stranger do
+  #first set
+  #it plays variable w (the arguements)
+  will :c2
+  will :e2
+  will :g2
+  will :b2
+  #second set
+  will :c3
+  will :b2
+  will :g2
+  will :e2
+end
