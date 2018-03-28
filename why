@@ -1,3 +1,8 @@
+#Sweet Creature - Harry Styles 
+
+use_bpm 110
+use_synth :piano 
+
 3.times do
   play :g3
   sleep 0.5
